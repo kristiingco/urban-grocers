@@ -2,51 +2,48 @@
 
 **Project Overview:**
 
-Briefly describe the nature of the project and its objectives.
-Mention the technologies used (e.g., databases, bash commands).
+Urban Grocers, a delivery service, provides a wide selection of grocery items obtained from different warehouses. The back-end API of Urban Grocers functions as a utility for accessing details pertaining to warehouses, grocery products, kits, and orders.
+
+The main goal of the project was to conduct thorough testing of various endpoints. Testing procedures were executed in Postman, and automated tests were developed using the Jest JavaScript testing framework. The emphasis was specifically on GET, POST, PUT, and DELETE requests. 
 
 **Your Role and Contributions:**
 
-Describe your specific role in the project.
-Highlight the tasks you handled and the challenges you faced.
+In my role as a QA Engineer, my primary responsibilities included:
+- Conducting API tests in Postman to verify data integrity and ensure accurate data validation in the received responses.
+- Creating automated API tests using the Jest JavaScript testing framework.
 
 **Project Deliverables:**
 
-List the key deliverables of Sprint 5's project.
-Mention any specific goals you achieved during this sprint.
+The testing checklist utilized for tests done with Postman can be found [here](https://docs.google.com/spreadsheets/d/14ELuoP0BIhmx33rg7pzcS5iSrA-fQEJ4/edit?usp=sharing&ouid=117504763605059948253&rtpof=true&sd=true);
+The GitHub repository consisting of the Jest API tests can be found [here](https://github.com/kristiingco/hm07-qa-us). 
 
 **Testing Approach:**
 
-Explain the testing strategy you employed during Sprint 5.
-Discuss the types of tests conducted (e.g., functional, integration, database etc.).
-Highlight the importance of testing in ensuring the project's quality.
+Testing predominantly relied on API testing methodologies. Specifically, the focus was placed on scrutinizing the structure of responses and ensuring alignment with the expected results outlined in the API documentation.
 
 **List of Tests Conducted:**
 
-Present a detailed list of the tests you ran during Sprint 5.
-Categorize the tests according to their types (e.g., SQL queries, bash commands).
+The following endpoints were tested in Postman:
+- Adding products to the cart
+- Getting products from an order
+- Deleting an order
+- Adding items to a kit
+- Checking availability and cost of Fast Delivery service
 
-**Screenshot of Test Results:**
+Meanwhile, the following endpoints were tested with Jest:
+- Getting a kit by name
+- Getting a list of deliveries
+- Getting a list of warehouses
+- Adding items to a kit
+- Checking the availability of goods in warehouse
+- Checking the quantity of goods in warehouse
+- Creating a user account
+- Updating the price of grocery items
+- Updating a kit
+- Deleting a kit
 
-Include a screenshot of the terminal showing the results of the tests.
-Ensure the screenshot is clear and easy to read.
+**Test Results:**
 
-**Challenges Faced:**
+For the tests executed with Postman, 360 test cases were created to span over the endpoints that were covered. Of the 360, 90.28% passed (325), while 9.72% failed (35). 
 
-Discuss any challenges or roadblocks you encountered during the project.
-Explain how you overcame them or what lessons you learned.
-
-**Results and Outcomes:**
-
-Provide an overview of the overall results achieved in Sprint 5.
-Mention any improvements made to the project based on your testing.
-
-**Key Takeaways:**
-
-Reflect on the experience gained during this project.
-Mention any new skills acquired or areas of improvement.
-
-**Conclusion:**
-
-Summarize the overall project experience.
-Express gratitude to team members, instructors, or mentors who supported you.
+For the tests executed with Jest, 68 tests were created. Out of the 68, 92.6% passed (63) while 7.4% failed (5).
